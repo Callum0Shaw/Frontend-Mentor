@@ -1,0 +1,62 @@
+.cardContainer{
+  width: 250px;
+  border-radius: var(--sm);
+}
+.titleImage{
+  position: fixed;
+  transform: translate(160px);
+}
+.innerContainer{
+  transform: translate(0, var(--vl));
+  padding: var(--md);
+  background-color: var(--dark-blue);
+  border-radius: var(--sm);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--md);
+}
+.Wor{
+  background-color: var(--red-work);
+}
+.Pla{
+  background-color: var(--blue-play);
+}
+.Stu{
+  background-color: var(--red-study);
+}
+.Exe {
+  background-color: var(--green-exercise);
+}
+.Soc{
+  background-color: var(--violet-social);
+}
+.Sel{
+  background-color: var(--orange-self-care);
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.topicHeader{
+  font-weight: 500;
+  font-size: 1em;
+}
+.ellipsis{
+  width: 1em;
+  height: 0.3em;
+}
+.hoursContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--sm);
+}
+.currentHours{
+  font-size: 3.25em;
+  font-weight: 300;
+}
+.previousHours{
+  font-size: var(--sm);
+}

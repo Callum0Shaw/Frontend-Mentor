@@ -1,0 +1,58 @@
+/* Global Varibales from project starter pack */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+:root{
+
+  /* Primary Colours */
+  --blue: hsl(246, 80%, 60%);  
+  --red-work: hsl(15, 100%, 70%);
+  --blue-play: hsl(195, 74%, 62%);
+  --red-study: hsl(348, 100%, 68%);
+  --green-exercise: hsl(145, 58%, 55%);
+  --violet-social: hsl(264, 64%, 52%);
+  --orange-self-care: hsl(43, 84%, 65%); 
+  /* Neutral Colours */
+  --very-dark-blue: hsl(226, 43%, 10%);
+  --dark-blue: hsl(235, 46%, 20%);
+  --surated-blue: hsl(235, 45%, 61%);
+  --light-blue: hsl(236, 100%, 87%);
+  /* Typography */
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  /* Sizing */
+  --sm: 0.875em;
+  --md: 1.875em;
+  --lg: 2.5em;
+  --vl: 2.75em;
+}
+body{
+  background-color: var(--very-dark-blue);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1110px;
+  height: 520px;
+  margin: auto;
+  display: flex;
+  flex: wrap;
+  gap: var(--md);
+}
+.cardsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--md);
+}
+h2{
+  font-weight: 300;
+  font-size: var(--lg);
+}

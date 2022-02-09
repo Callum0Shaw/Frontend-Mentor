@@ -1,0 +1,47 @@
+.container{
+  background-color: var(--dark-blue);
+  min-width: 254px;
+  max-height: 520px;
+  border-radius: var(--sm);
+
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  gap: var(--md);
+  padding: var(--md);
+  position: relative;
+  background-color: var(--blue);
+  border-radius: var(--sm);
+}
+.nav{
+  padding: var(--md);
+  display: flex;
+  flex-direction: column;
+  gap: 1.75em;
+  font-weight: 400;
+} 
+menu{
+  color: var(--light-blue);
+}
+.nav li:hover{
+  color: white;
+  cursor: pointer;
+}
+.activeToggle{
+  color: white;
+}
+
+.pText{
+  color: var(--light-blue);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.avatar{
+  width: 5em;
+  display: block;
+  border-radius: 5em;
+  border: 3px solid white
+}
